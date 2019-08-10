@@ -1,0 +1,104 @@
+/* reset css */
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	input {
+		outline: none!important;
+	}
+
+	body {
+		background: #4F4E52; 
+	}
+
+/* header */
+	header .header-content {
+		background-color: #282828;
+	}
+
+	.logo a {
+		background: url(../images/all-image.png) 0px -320px;
+		display: block;
+	    height: 55px;
+    	width: 183px;
+	}
+	
+	.group-input {
+		width: 325px;
+		height: 38px;
+		background-color: white;
+		margin-top: 27px;
+		border-radius: 50px;
+	}
+
+	.group-input input {
+		margin-top: 7px;
+	}
+
+	.group-input .input1 {
+		border: none;
+		width: 70%;
+		margin-left: 20px;
+	}
+
+	.group-input .input2 {
+	    text-indent: -9999px;
+	    background: url(../images/search.png) no-repeat;
+	    width: 32px;
+	    height: 32px;
+	    border: none;
+        margin: 3px;
+    	margin-left: 33px;
+	}
+
+	.group-input-btn {
+		margin-top: 25px;
+	}
+
+	.group-input-btn .btn1 {
+		width: 79px;
+		height: 38px;
+		background: url(../images/all-image.png) 0px 0px;
+	}
+
+	.group-input-btn .btn2 {
+		width: 98px;
+		height: 38px;
+		background: url(../images/all-image.png) -79px 0px;	
+	}
+
+	.group-input-btn .btn3 {
+		width: 161px;
+		height: 38px;
+		background: url(../images/all-image.png) -176px 0px;
+	}
+
+	.group-input-btn input {
+		text-indent: -9999px;
+		border: none;
+	}
+
+	.group-input-btn input.change {
+		background-position-y: -41px;
+	}
+
+/* navbar */
+	.nav-menu {
+		padding:0px;
+	}
+
+	.navbar {
+		background: #000;
+		border-radius: 0px;
+	}
+
+	.navbar-nav li a {
+		font-size: 16px;
+		color: white;
+		text-transform: uppercase;
+	}
+
+	.navbar-nav li a:hover{
+		background-color: lightblue!important;
+	}
